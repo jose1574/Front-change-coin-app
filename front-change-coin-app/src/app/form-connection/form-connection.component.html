@@ -1,0 +1,40 @@
+<div class="col-auto  p-5 text-center content">
+  
+    <form style="text-align: left;" action="http://localhost:3001/insert" method="post">
+
+      <div class="form-group">
+        <label for="key">Llave o Licencia:</label>
+        <input type="text" class="form-control" id="key" name="key" placeholder="Ingrese su llave">
+      </div><br>
+
+      <div class="form-group">
+        <label for="host">Host:</label>
+        <input type="text" class="form-control" id="host" name="host" placeholder="Ingrese nombre del servidor">
+      </div><br>
+
+      <div class="form-group">
+        <label for="user">Usuario:</label>
+        <input type="text" class="form-control" id="user" name="user" placeholder="ingrese usuario">
+      </div><br>
+
+      <div class="form-group">
+        <label for="password">Clave:</label>
+        <input type="text" class="form-control" id="password" name="password" placeholder="ingrese clave">
+      </div><br>
+
+      <div class="form-group">
+        <label for="port">Puerto:</label>
+        <input type="text" class="form-control" id="port" name="port" placeholder="ingrese el puerto de conexión">
+      </div><br>
+
+      <div class="form-group">
+        <label for="database">Nombre de la base de datos:</label>
+        <input type="text" class="form-control" id="database" name="database" placeholder="Ingrese el nombre de la base de datos" >
+      </div><br>
+
+      <button type="submit" class="btn btn-primary" (click)="saveData()">Guardar</button>
+      <!-- <button type="submit"class="btn btn-secondary">Salir</button> -->
+
+    </form> 
+
+</div>

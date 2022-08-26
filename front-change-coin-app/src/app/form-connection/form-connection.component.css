@@ -1,0 +1,20 @@
+/* .content {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 700px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  } */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 400px;
+    height: 700px;
+   
+}
